@@ -1,0 +1,73 @@
+[
+    {
+        "id": "sd_3haXqyMHNrnXVdVd",
+        "type": "tab",
+        "createdDate": "2020-11-08T09:06:18.971Z",
+        "label": "userinfo",
+        "disabled": false,
+        "info": "",
+        "generateNext": true,
+        "serviceName": "userinfo"
+    },
+    {
+        "id": "sd_LJNeESvlXg4XCn59",
+        "type": "Start",
+        "z": "sd_3haXqyMHNrnXVdVd",
+        "viewType": "common",
+        "nodeType": "start",
+        "name": "userDetails",
+        "outputs": 1,
+        "inputVariables": [],
+        "localVariables": [],
+        "accept_bh": false,
+        "functionName": "userDetails",
+        "category": "General",
+        "x": 140,
+        "y": 220,
+        "wires": [
+            [
+                "sd_z1sPEbbdSlapUWjm"
+            ]
+        ],
+        "generateNext": true,
+        "serviceName": "userinfo"
+    },
+    {
+        "id": "sd_z1sPEbbdSlapUWjm",
+        "type": "HttpRequest",
+        "z": "sd_3haXqyMHNrnXVdVd",
+        "viewType": "client",
+        "nodeType": "flow",
+        "name": "",
+        "method": "get",
+        "methodMappingObj": {},
+        "urlValue": "http://localhost:8081/api/user/info",
+        "urlMappingObj": {},
+        "ret": "json",
+        "retMappingObj": {},
+        "reqBodyObj": {
+            "mapVarType": "bh",
+            "mapVarValue": ""
+        },
+        "resultMapping": "bh.local.result",
+        "resultMappingObj": {
+            "mapVarType": "bh.local",
+            "mapVarValue": "result"
+        },
+        "headers": {},
+        "headersObj": [],
+        "headerMappingObj": {},
+        "params": {},
+        "paramsObj": [],
+        "paramMappingObj": {},
+        "functionName": "sd_z1sPEbbdSlapUWjm",
+        "category": "HTTP",
+        "x": 345,
+        "y": 220,
+        "wires": [
+            []
+        ],
+        "generateNext": false,
+        "generated": true
+    }
+]

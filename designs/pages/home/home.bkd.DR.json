@@ -364,6 +364,7 @@
                     "7c5f7974-9306-d1e1-6037-7e1a22af0124": {
                         "paletteKey": "NG-listItem",
                         "parentEditorKey": "01209cca-7210-122c-505d-442c56eef0a1",
+                        "isCommented": "true",
                         "designerReference": [
                             {
                                 "_key": "componentLabel",

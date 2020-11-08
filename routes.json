@@ -8,7 +8,7 @@
         {
             "path": "home",
             "component": "homeComponent",
-            "canActivate": "",
+            "canActivate": "NeutrinosAuthGuardService",
             "children": [
                 {
                     "path": "hospitals",
@@ -22,7 +22,7 @@
         },
         {
             "path": "''",
-            "redirectTo": "home",
+            "redirectTo": "landing",
             "pathMatch": "full",
             "default": true
         },

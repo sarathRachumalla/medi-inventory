@@ -94,6 +94,6 @@ export const appProviders = [
 */
 
 // CORE_REFERENCE_PUSH_TO_ROUTE_ARRAY_START
-export const appRoutes = [{path: 'landing', component: landingComponent},{path: 'home', component: homeComponent,
-children: [{path: 'hospitals', component: hospitalsComponent},{path: 'inventory', component: inventoryComponent}]},{path: '', redirectTo: 'home', pathMatch: 'full'},{path: '**', component: PageNotFoundComponent}]
+export const appRoutes = [{path: 'landing', component: landingComponent},{path: 'home', component: homeComponent, canActivate: [NeutrinosAuthGuardService],
+children: [{path: 'hospitals', component: hospitalsComponent},{path: 'inventory', component: inventoryComponent}]},{path: '', redirectTo: 'landing', pathMatch: 'full'},{path: '**', component: PageNotFoundComponent}]
 // CORE_REFERENCE_PUSH_TO_ROUTE_ARRAY_END

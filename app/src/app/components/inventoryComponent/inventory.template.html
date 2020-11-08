@@ -1,1 +1,32 @@
-<button mat-raised-button>inventory</button>
+<mat-card style="margin-bottom:0.5em; margin-top: 1em">
+  <mat-card-content>
+    <div fxLayout="column wrap" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
+      <div fxLayout="row wrap" fxFlex="100" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
+        <div fxLayout="row wrap" fxFlex="25" fxLayoutAlign="center stretch" [fxShow]="true" [fxHide]="false"><span class="menu-list">
+                Name</span></div>
+        <div fxLayout="row wrap" fxFlex="25" fxLayoutAlign="center stretch" [fxShow]="true" [fxHide]="false" *ngIf="callToShow()"><span class="menu-list">
+                No of Clients</span></div>
+        <div fxLayout="row wrap" fxFlex="25" fxLayoutAlign="center stretch" [fxShow]="true" [fxHide]="false"><span class="menu-list">
+                Previous purchase</span></div>
+        <div fxLayout="row wrap" fxFlex="25" fxLayoutAlign="center stretch" [fxShow]="true" [fxHide]="false"><span class="menu-list">
+                Estimated</span></div>
+      </div>
+    </div>
+  </mat-card-content>
+</mat-card>
+<mat-card *ngFor="let item of items" style="margin-bottom:0.5em">
+  <mat-card-content>
+    <div fxLayout="column wrap" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
+      <div fxLayout="row wrap" fxFlex="100" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
+        <div fxLayout="row wrap" fxFlex="25" fxLayoutAlign="center stretch" [fxShow]="true" [fxHide]="false"><span>
+          {{item.name}}</span></div>
+        <div fxLayout="row wrap" fxFlex="25" fxLayoutAlign="center stretch" [fxShow]="true" [fxHide]="false" *ngIf="callToShow()"><span>
+          {{item.noOfClients}}</span></div>
+        <div fxLayout="row wrap" fxFlex="25" fxLayoutAlign="center stretch" [fxShow]="true" [fxHide]="false"><span>
+          {{item.prePurOrder}}</span></div>
+        <div fxLayout="row wrap" fxFlex="25" fxLayoutAlign="center stretch" [fxShow]="true" [fxHide]="false"><span>
+          {{calculate(item.prePurOrder)}}</span></div>
+      </div>
+    </div>
+  </mat-card-content>
+</mat-card>
