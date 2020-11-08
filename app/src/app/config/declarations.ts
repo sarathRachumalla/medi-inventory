@@ -16,6 +16,10 @@ window['neutrinos'] = {
 }
 
 //CORE_REFERENCE_IMPORTS
+//CORE_REFERENCE_IMPORT-inventoryComponent
+import { inventoryComponent } from '../components/inventoryComponent/inventory.component';
+//CORE_REFERENCE_IMPORT-hospitalsComponent
+import { hospitalsComponent } from '../components/hospitalsComponent/hospitals.component';
 //CORE_REFERENCE_IMPORT-landingComponent
 import { landingComponent } from '../components/landingComponent/landing.component';
 //CORE_REFERENCE_IMPORT-homeComponent
@@ -52,6 +56,10 @@ export const appDeclarations = [
   NMapComponent,
   ArtImgSrcDirective,
   //CORE_REFERENCE_PUSH_TO_DEC_ARRAY
+//CORE_REFERENCE_PUSH_TO_DEC_ARRAY-inventoryComponent
+inventoryComponent,
+//CORE_REFERENCE_PUSH_TO_DEC_ARRAY-hospitalsComponent
+hospitalsComponent,
 //CORE_REFERENCE_PUSH_TO_DEC_ARRAY-landingComponent
 landingComponent,
 //CORE_REFERENCE_PUSH_TO_DEC_ARRAY-homeComponent
@@ -86,5 +94,6 @@ export const appProviders = [
 */
 
 // CORE_REFERENCE_PUSH_TO_ROUTE_ARRAY_START
-export const appRoutes = [{path: 'landing', component: landingComponent},{path: 'home', component: homeComponent, canActivate: [neutrinosAuthGaurdService]},{path: '', redirectTo: 'landing', pathMatch: 'full'},{path: '**', component: PageNotFoundComponent}]
+export const appRoutes = [{path: 'landing', component: landingComponent},{path: 'home', component: homeComponent,
+children: [{path: 'hospitals', component: hospitalsComponent},{path: 'inventory', component: inventoryComponent}]},{path: '', redirectTo: 'home', pathMatch: 'full'},{path: '**', component: PageNotFoundComponent}]
 // CORE_REFERENCE_PUSH_TO_ROUTE_ARRAY_END

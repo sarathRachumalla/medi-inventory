@@ -1,1 +1,14 @@
-<div>default page template</div>
+<div fxLayout="column wrap" fxFlex="100" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
+  <mat-toolbar color="primary"></mat-toolbar>
+  <mat-sidenav-container style="height: calc(100vh - 64px)">
+    <div fxLayout="column wrap" fxFlex="100" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
+      <router-outlet></router-outlet>
+    </div>
+    <mat-sidenav #sidenav style="width:300px" [mode]="&apos;side&apos;" [position] [opened]="true">
+      <mat-list>
+        <mat-list-item (click)="navigate(&apos;hospitals&apos;)">Hospitals</mat-list-item>
+        <mat-list-item (click)="navigate(&apos;inventory&apos;)">Inventory</mat-list-item>
+      </mat-list>
+    </mat-sidenav>
+  </mat-sidenav-container>
+</div>

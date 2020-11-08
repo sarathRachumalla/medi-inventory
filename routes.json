@@ -8,11 +8,21 @@
         {
             "path": "home",
             "component": "homeComponent",
-            "canActivate": "neutrinosAuthGaurdService"
+            "canActivate": "",
+            "children": [
+                {
+                    "path": "hospitals",
+                    "component": "hospitalsComponent"
+                },
+                {
+                    "path": "inventory",
+                    "component": "inventoryComponent"
+                }
+            ]
         },
         {
             "path": "''",
-            "redirectTo": "landing",
+            "redirectTo": "home",
             "pathMatch": "full",
             "default": true
         },
