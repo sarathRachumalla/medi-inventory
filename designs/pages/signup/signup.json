@@ -1,0 +1,14 @@
+{
+    "appPageId": "95d11cc7-fcfe-289b-f56f-289230c773cd",
+    "appPageName": "signup",
+    "componentName": "signupComponent",
+    "selectorName": "bh-signup",
+    "htmlFileName": "signup.template.html",
+    "tsFileName": "signup.component.ts",
+    "createDate": "2020-11-08T04:18:47.923Z",
+    "bkd": {
+        "designerHtml": "",
+        "designerReference": {},
+        "ts": ""
+    }
+}

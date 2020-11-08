@@ -1,0 +1,14 @@
+{
+    "appPageId": "2a1b8b59-2296-f590-0c15-c1bb5b1949bf",
+    "appPageName": "landing",
+    "componentName": "landingComponent",
+    "selectorName": "bh-landing",
+    "htmlFileName": "landing.template.html",
+    "tsFileName": "landing.component.ts",
+    "createDate": "2020-11-08T04:18:59.182Z",
+    "bkd": {
+        "designerHtml": "",
+        "designerReference": {},
+        "ts": ""
+    }
+}
