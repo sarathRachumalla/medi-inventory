@@ -1,9 +1,20 @@
 {
     "routes": [
         {
+            "path": "landing",
+            "component": "landingComponent",
+            "canActivate": ""
+        },
+        {
+            "path": "home",
+            "component": "homeComponent",
+            "canActivate": "neutrinosAuthGaurdService"
+        },
+        {
             "path": "''",
-            "redirectTo": "",
-            "pathMatch": "full"
+            "redirectTo": "landing",
+            "pathMatch": "full",
+            "default": true
         },
         {
             "path": "**",
