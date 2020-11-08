@@ -1,0 +1,14 @@
+{
+    "appPageId": "1f180711-b5b6-e501-d85e-63d404ca478b",
+    "appPageName": "hospitals",
+    "componentName": "hospitalsComponent",
+    "selectorName": "bh-hospitals",
+    "htmlFileName": "hospitals.template.html",
+    "tsFileName": "hospitals.component.ts",
+    "createDate": "2020-11-08T07:08:15.016Z",
+    "bkd": {
+        "designerHtml": "",
+        "designerReference": {},
+        "ts": ""
+    }
+}

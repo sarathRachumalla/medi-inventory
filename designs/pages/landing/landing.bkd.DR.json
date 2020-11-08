@@ -228,13 +228,13 @@
                             },
                             {
                                 "_key": "layoutAlign",
-                                "_value": "start",
+                                "_value": "center",
                                 "_type": "a",
                                 "_attrDef": "p"
                             },
                             {
                                 "_key": "pLayoutAlign",
-                                "_value": "stretch",
+                                "_value": "center",
                                 "_type": "a",
                                 "_attrDef": "p"
                             },
@@ -254,6 +254,7 @@
                         "bfa2588c-b299-9341-b175-b8a7a35c20e9": {
                             "paletteKey": "FlexLayoutCol",
                             "parentEditorKey": "0a06969d-d3e6-6728-5d81-1051051062e8",
+                            "isCommented": "true",
                             "designerReference": [
                                 {
                                     "_key": "componentLabel",
@@ -321,6 +322,7 @@
                                 "paletteKey": "Html5",
                                 "parentEditorKey": "bfa2588c-b299-9341-b175-b8a7a35c20e9",
                                 "isAdvancedComponent": true,
+                                "isCommented": "true",
                                 "designerReference": [
                                     {
                                         "_key": "style",
@@ -507,6 +509,7 @@
                                     "paletteKey": "html-editor",
                                     "parentEditorKey": "70b1a765-c303-f2c7-2a36-17d66f807ca9",
                                     "isAdvancedChildComponent": true,
+                                    "isCommented": "true",
                                     "designerReference": [
                                         {
                                             "_key": "style",
@@ -596,133 +599,11 @@
                                     "_attrDef": "p"
                                 }
                             ],
-                            "28d64ef1-7730-dcb3-65fa-3809f21d95e2": {
-                                "paletteKey": "NG-RaisedButton",
-                                "parentEditorKey": "9356eeb3-06c4-4a7c-9e2a-741dbd281838",
-                                "designerReference": [
-                                    {
-                                        "_key": "style",
-                                        "_value": "",
-                                        "_type": "kv",
-                                        "_attrDef": "p"
-                                    },
-                                    {
-                                        "_key": "class",
-                                        "_value": "",
-                                        "_type": "dav",
-                                        "_attrDef": "p"
-                                    },
-                                    {
-                                        "_key": "buttonname",
-                                        "_value": "Hospital",
-                                        "_type": "a",
-                                        "_attrDef": "p",
-                                        "_useAsLabel": true
-                                    },
-                                    {
-                                        "_key": "color",
-                                        "_value": "",
-                                        "_type": "kv",
-                                        "_attrDef": "p"
-                                    },
-                                    {
-                                        "_key": "(click)",
-                                        "_value": "",
-                                        "_type": "kv",
-                                        "_attrDef": "p"
-                                    },
-                                    {
-                                        "_key": "[disabled]",
-                                        "_value": "",
-                                        "_type": "kv",
-                                        "_attrDef": "p"
-                                    },
-                                    {
-                                        "_key": "[disableRipple]",
-                                        "_value": "",
-                                        "_type": "kv",
-                                        "_attrDef": "p"
-                                    },
-                                    {
-                                        "_key": "type",
-                                        "_value": "",
-                                        "_type": "kv",
-                                        "_attrDef": "p"
-                                    },
-                                    {
-                                        "_key": "routerLink",
-                                        "_value": "",
-                                        "_type": "kv",
-                                        "_attrDef": "p"
-                                    }
-                                ]
-                            },
-                            "58b50891-24db-f6f7-801c-385b88c76556": {
-                                "paletteKey": "NG-RaisedButton",
-                                "parentEditorKey": "9356eeb3-06c4-4a7c-9e2a-741dbd281838",
-                                "isCommented": "false",
-                                "designerReference": [
-                                    {
-                                        "_key": "style",
-                                        "_value": "",
-                                        "_type": "kv",
-                                        "_attrDef": "p"
-                                    },
-                                    {
-                                        "_key": "class",
-                                        "_value": "",
-                                        "_type": "dav",
-                                        "_attrDef": "p"
-                                    },
-                                    {
-                                        "_key": "buttonname",
-                                        "_value": "Sipplier",
-                                        "_type": "a",
-                                        "_attrDef": "p",
-                                        "_useAsLabel": true
-                                    },
-                                    {
-                                        "_key": "color",
-                                        "_value": "",
-                                        "_type": "kv",
-                                        "_attrDef": "p"
-                                    },
-                                    {
-                                        "_key": "(click)",
-                                        "_value": "",
-                                        "_type": "kv",
-                                        "_attrDef": "p"
-                                    },
-                                    {
-                                        "_key": "[disabled]",
-                                        "_value": "",
-                                        "_type": "kv",
-                                        "_attrDef": "p"
-                                    },
-                                    {
-                                        "_key": "[disableRipple]",
-                                        "_value": "",
-                                        "_type": "kv",
-                                        "_attrDef": "p"
-                                    },
-                                    {
-                                        "_key": "type",
-                                        "_value": "",
-                                        "_type": "kv",
-                                        "_attrDef": "p"
-                                    },
-                                    {
-                                        "_key": "routerLink",
-                                        "_value": "",
-                                        "_type": "kv",
-                                        "_attrDef": "p"
-                                    }
-                                ]
-                            },
                             "d65fe39f-2c33-47a3-d5f0-17ab82bfaa38": {
                                 "paletteKey": "Html5",
                                 "parentEditorKey": "9356eeb3-06c4-4a7c-9e2a-741dbd281838",
                                 "isAdvancedComponent": true,
+                                "isCommented": "true",
                                 "designerReference": [
                                     {
                                         "_key": "style",
@@ -909,6 +790,7 @@
                                     "paletteKey": "html-editor",
                                     "parentEditorKey": "d65fe39f-2c33-47a3-d5f0-17ab82bfaa38",
                                     "isAdvancedChildComponent": true,
+                                    "isCommented": "true",
                                     "designerReference": [
                                         {
                                             "_key": "style",
@@ -924,7 +806,7 @@
                                         },
                                         {
                                             "_key": "html",
-                                            "_value": "",
+                                            "_value": "Click to Login",
                                             "_type": "a",
                                             "_attrDef": "p"
                                         }
@@ -951,7 +833,7 @@
                                     },
                                     {
                                         "_key": "buttonname",
-                                        "_value": "",
+                                        "_value": "Login",
                                         "_type": "a",
                                         "_attrDef": "p",
                                         "_useAsLabel": true
@@ -964,7 +846,7 @@
                                     },
                                     {
                                         "_key": "(click)",
-                                        "_value": "",
+                                        "_value": "login()",
                                         "_type": "kv",
                                         "_attrDef": "p"
                                     },

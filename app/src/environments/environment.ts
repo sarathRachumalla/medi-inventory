@@ -8,7 +8,7 @@ export const environment = {
         "namespace": "com.neutrinos.medi-inventory",
         "googleMapKey": "AIzaSyCSTnVwijjv0CFRA4MEeS-H6PAQc87LEoU",
         "useDefaultExceptionUI": true,
-        "isIDSEnabled": "false",
+        "isIDSEnabled": "true",
         "webAppMountpoint": "web",
         "NGFORAGE_MOBILE_DRIVER": "INDEXED_DB"
     }

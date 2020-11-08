@@ -18,5 +18,15 @@
         "appPageName": "landing",
         "componentName": "landingComponent",
         "createDate": "2020-11-08T04:18:59.182Z"
+    },
+    "1f180711-b5b6-e501-d85e-63d404ca478b": {
+        "appPageName": "hospitals",
+        "componentName": "hospitalsComponent",
+        "createDate": "2020-11-08T07:08:15.016Z"
+    },
+    "285b52db-d444-30ca-91e2-13f915c01eca": {
+        "appPageName": "inventory",
+        "componentName": "inventoryComponent",
+        "createDate": "2020-11-08T07:09:03.222Z"
     }
 }

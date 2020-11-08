@@ -1,0 +1,14 @@
+{
+    "appPageId": "285b52db-d444-30ca-91e2-13f915c01eca",
+    "appPageName": "inventory",
+    "componentName": "inventoryComponent",
+    "selectorName": "bh-inventory",
+    "htmlFileName": "inventory.template.html",
+    "tsFileName": "inventory.component.ts",
+    "createDate": "2020-11-08T07:09:03.222Z",
+    "bkd": {
+        "designerHtml": "",
+        "designerReference": {},
+        "ts": ""
+    }
+}
